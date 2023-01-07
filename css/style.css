@@ -36,6 +36,7 @@ body{
 }
 .contact{
     float:right;
+    margin-top: 20px;
 }
 .contact a{
     text-decoration: none;
@@ -119,6 +120,7 @@ body{
 .my-plans-item h1{
     font-size: 18px;
     line-height: 0;
+    margin-bottom: 10px;
     font-family:'palo', Calibri, 'Trebuchet MS', sans-serif;
 }
 .call-now{
@@ -143,6 +145,7 @@ body{
 .call-now h1{
     color: white;
     font-family:'palo', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
 }
 .call-now-btn{
     padding: 10px 30px;
