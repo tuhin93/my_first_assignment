@@ -1,0 +1,232 @@
+@font-face {
+    font-family: palo;
+    src: url(../font/Palo-Wide-Semibold.woff);
+    src: url(../font/Palo-Wide-Semibold.woff2);
+    src: url(../font/TypeUnion---Palo-Compressed-Medium.woff);
+    src: url(../font/TypeUnion---Palo-Compressed-Medium.woff2);
+    src: url(../font/typeunion-palo-wide-light.woff);
+    src: url(../font/typeunion-palo-wide-light.woff2);
+}
+
+body{
+    margin:0; padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.top-section{
+    background-image: url(../img/banner/banner1.png);
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:0px 100px;
+    border-radius: 5px;
+}
+.top-banner{
+    width: 400px;
+}
+.banner-text{
+    text-align: right;
+}
+.banner-text h1{
+    font-weight: bold;
+    font-size: 48px;
+    font-family:'palo',sans-serif;
+    font-weight: bolder;
+}
+.banner-text p{
+    font-family:'palo', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+.contact{
+    float:right;
+}
+.contact a{
+    text-decoration: none;
+    font-family:'palo', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact-btn{
+    background-color: rgb(238, 91, 7);
+    padding:10px 20px;
+    color:white;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+}
+.contact-btn:hover{
+    background-color: rgb(246, 137, 74);
+}
+.my-failure-section{
+    /* border:1px solid red; */
+    padding: 100px 0px;
+}
+.my-failure-content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.failure-img{
+    width: 50%;
+    margin-right: 50px;
+}
+.failure-img img{
+    width: 400px;
+    height: auto;
+    float: right;
+}
+.failure-text{
+    width: 30%;
+    /* border: 1px solid red; */
+}
+.failure-text h1{
+    font-weight: bold;
+    font-family:'palo', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+.failure-text p{
+    font-family:'palo', Calibri, 'Trebuchet MS', sans-serif;
+}
+.failure-text ul{
+    list-style: none;
+    margin: 0; padding: 0;
+}
+.failure-text ul li{
+    padding:5px 0px;
+}
+.failure-text ul li a{
+    text-decoration: none;
+    color: black;
+    padding:5px;
+    font-family:'palo', Calibri, 'Trebuchet MS', sans-serif;
+}
+.failure-text ul li::before{
+    content:'\221A';
+    /* background-color: green; */
+    padding-right:10px;
+    color: rgb(35, 228, 35);
+}
+.my-plans-section{
+    text-align: center;
+    font-family:'palo', Calibri, 'Trebuchet MS', sans-serif;
+}
+.my-plans-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.my-plans-item{
+    margin: 30px;
+    text-align: center;
+}
+.my-plans-item h1{
+    font-size: 18px;
+    line-height: 0;
+    font-family:'palo', Calibri, 'Trebuchet MS', sans-serif;
+}
+.call-now{
+    background-image: url(../img/gradient2.png), url(../img/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.call-now-text{
+    width: 40%;
+}
+.call-now-text a{
+    text-decoration: none;
+    font-family:'palo', Calibri, 'Trebuchet MS', sans-serif;
+}
+.call-now h1{
+    color: white;
+    font-family:'palo', Calibri, 'Trebuchet MS', sans-serif;
+}
+.call-now-btn{
+    padding: 10px 30px;
+    background-color: white;
+    color: orange;
+    border:none;
+    border-radius: 5px;
+}
+.call-now-btn:hover{
+    background-color: rgb(241, 234, 232);
+    color: rgb(255, 255, 255);
+}
+.footer-section{
+    background-color: #333;
+    height: 400px;
+    padding:100px 0px;
+    margin-top: 100px;
+}
+.footer-content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.footer-left{
+    width: 40%;
+    color: white;
+}
+.footer-left h1{
+    font-family:'palo', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer-left p{
+    font-family:'palo', Calibri, 'Trebuchet MS', sans-serif;
+}
+.social-media a{
+    float: left;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-family:'palo', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-right{
+    width: 50%;
+    padding-left:200px;
+}
+.footer-right h1{
+    color: white;
+    font-size: 24px;
+    font-family:'palo', Calibri, 'Trebuchet MS', sans-serif;
+}
+form input{
+    height: 35px;
+    width: 200px;
+    outline:none;
+    border:1px solid white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding:0px 20px;
+    background: transparent;
+    
+}
+.submit{
+    padding: 10px 20px;
+    background-color: white;
+    color: orange;
+    border:none; 
+    outline: none;
+    border-radius: 5px;
+    font-family:'palo', Calibri, 'Trebuchet MS', sans-serif;
+}
+.submit:hover{
+    background-color: orangered;
+    color: rgb(255, 255, 255);
+}
+.footer-right a{
+    margin-top: 20px;
+    text-decoration: none;
+    font-family:'palo', Calibri, 'Trebuchet MS', sans-serif;
+}
